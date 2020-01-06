@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ssv.ssvwifitool.SsvWifiToolActivity" >
+
+    <item
+        android:id="@+id/action_sram"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="SRAM"/>
+    
+    <item
+        android:id="@+id/action_mcu"
+        android:orderInCategory="101"  
+        android:showAsAction="never"
+        android:title="MCU"/>
+    
+     <item
+        android:id="@+id/action_timer"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="Timer"/>
+     
+      <item
+        android:id="@+id/action_interrupt"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="Interrupt"/>
+      
+      <item
+        android:id="@+id/action_sdio"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="SDIO"/>
+      
+       <item
+        android:id="@+id/action_hci"
+        android:orderInCategory="105"
+        android:showAsAction="never"
+        android:title="HCI"/>
+       
+     
+       <item
+        android:id="@+id/action_rx"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="Mac Rx"/>
+       
+       <item
+        android:id="@+id/action_tx"
+        android:orderInCategory="107"
+        android:showAsAction="never"
+        android:title="Mac Tx"/>
+       
+       <item
+        android:id="@+id/action_mac_general"
+        android:orderInCategory="108"
+        android:showAsAction="never"
+        android:title="Mac General"/>
+       
+        <item
+        android:id="@+id/action_id_mangement"
+        android:orderInCategory="109"
+        android:showAsAction="never"
+        android:title="ID management"/>
+       
+       
+       <item
+        android:id="@+id/action_rf"
+        android:orderInCategory="110"
+        android:showAsAction="never"
+        android:title="RF"/>
+       
+       <item
+        android:id="@+id/action_phy"
+        android:orderInCategory="111"
+        android:showAsAction="never"
+        android:title="PHY"/>
+  
+</menu>

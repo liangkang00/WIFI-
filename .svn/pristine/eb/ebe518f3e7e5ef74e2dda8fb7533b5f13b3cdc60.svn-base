@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">ssvWifiTool</string>
+    <string name="address" translatable="false">Address</string>
+
+    <string name="rf_test" translatable="false">RF Test</string>
+    <string name="TRX" translatable="false">TRX</string>
+    
+    <string name="read" translatable="false">read</string>
+    <string name="value" translatable="false">Value</string>
+    <string name="mcu" translatable="false">MCU</string>
+    <string name="hci" translatable="false">HCI</string>
+    <string name="security" translatable="false">Security</string>
+    <string name="RX" translatable="false">RX</string>
+    <string name="TX0" translatable="false">TX0</string>
+    <string name="TX1" translatable="false">TX1</string>
+    <string name="TX2" translatable="false">TX2</string>
+    <string name="TX3" translatable="false">TX3</string>
+    <string name="TX4" translatable="false">TX4</string>
+    <string name="security_sec" translatable="false">Security sec</string>
+    <string name="mic_sec" translatable="false">MIC sec</string>
+    <string name="trash_can" translatable="false">Trash can</string>
+    <string name="inputQ" translatable="false">Input queue</string>
+    <string name="outputQ" translatable="false">Output queue</string>
+    <string name="HWModule" translatable="false">HW module</string>
+    <string name="avaliable" translatable="false">avaliable</string>
+    <string name="TX" translatable="false">TX</string>
+    <string name="poll_time" translatable="false">time(s)</string>
+    <string name="Start" translatable="false">Start</string>
+    <string name="Stop" translatable="false">Stop</string>
+    <string name="Path" translatable="false">Path</string>
+    <string name="tx_on" translatable="false"><b>Start</b></string>
+    <string name="tx_off" translatable="false"><b>TX Stop</b></string>
+    <string name="ref_clk" translatable="false">REF CLK (MHz): </string>
+
+    <string name="channel" translatable="false">Channel: </string>
+    <string name="bw" translatable="false">Bandwidth: </string>
+    <string name="mode" translatable="false">Mode: </string>
+    <string name="rate" translatable="false">Rate: </string>
+    <string name="dac" translatable="false">DAC: </string>
+    <string name="iq_phase" translatable="false">IQ Phase: </string>
+    <string name="zero" translatable="false">0</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="add" translatable="false">+</string>
+    <string name="tbTx" translatable="false">ToggleButton</string>
+    <string name="tbRx" translatable="false">ToggleButton</string>
+    <string name="freq_offset" translatable="false">Freq Offset: </string>
+    <string name="iq_amp" translatable="false">IQ Amp: </string>
+
+    <string name="rx_on" translatable="false"><b>RX ON</b></string>
+    <string name="rx_off" translatable="false"><b>RX OFF</b></string>
+    <string name="rx_reset" translatable="false"><b>RESET</b></string>
+    <string name="command" translatable="false"><b>Command:</b></string>
+
+    <string name="count" translatable="false">count </string>
+    <string name="error" translatable="false">err </string>
+    <string name="err_rate" translatable="false">err_rate </string>
+
+    <string name="driver_unload" translatable="false">Can not find driver file! </string>
+    <string name="exit" translatable="false">Exit </string>
+    <string name="timer" translatable="false">Timer(ms): </string>
+    <string name="rssi" translatable="false">RSSI: </string>
+    <string name="per" translatable="false">Packet Error Rate </string>
+    <string name="err" translatable="false">Packet Error </string>
+    <string name="ptk" translatable="false">Packet Count </string>
+    <string name="one_thousand" translatable="false">1000</string>
+    <string name="empty" translatable="false"> </string>
+</resources>

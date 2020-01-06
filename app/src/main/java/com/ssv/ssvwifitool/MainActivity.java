@@ -1,0 +1,101 @@
+package com.ssv.ssvwifitool;
+
+import com.ssv.ssvwifitool.R;
+import com.ssv.ssvwifitool.WifiStatusControl;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.content.Context;
+
+import android.content.DialogInterface;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.os.PowerManager;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTabHost;
+import android.util.Log;
+import android.view.WindowManager;
+
+
+
+public class MainActivity extends FragmentActivity {
+	
+	//am start -n com.ssv.ssvwifitool/com.ssv.ssvwifitool.MainActivity
+	
+	private static Context mContext;
+	private int wifiState;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+
+		mContext = getApplicationContext();  
+		setContentView(R.layout.main);
+		
+		getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);//screen always on
+		
+		FragmentTabHost tabHost = (FragmentTabHost)findViewById(android.R.id.tabhost);
+		tabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
+
+		WifiStatusControl.checkWifiStateAndOn(MainActivity.this);
+
+		Handler handler = new Handler(){
+			@Override
+			public void handleMessage(Message msg) {
+				WlanAttributes attr = new WlanAttributes(MainActivity.this);
+				if(!attr.isWifiDriverLoad()){
+					//exit app
+					Log.i("rx","showAlerDialog"+attr.isWifiDriverLoad());
+					showAlerDialog(MainActivity.this);
+				}
+			}
+		};
+
+
+			tabHost.addTab(tabHost.newTabSpec("TX")
+							.setIndicator("TX"),
+					TXFragment.class,
+					null);
+			tabHost.addTab(tabHost.newTabSpec("RX")
+							.setIndicator("RX"),
+					RXFragment.class,
+					null);
+
+			tabHost.addTab(tabHost.newTabSpec("cli")
+							.setIndicator("Cli"),
+					CliTableFragment.class,
+					null);
+
+		handler.sendEmptyMessageDelayed(0,1000);
+
+	}
+	
+	@Override
+	protected void onStop() {
+	    super.onStop();
+
+	}
+	
+	@Override
+	protected void onDestroy(){
+       super.onDestroy();
+       WifiStatusControl.isDriverLoaded = false;
+       finish();
+    }
+
+	static void showAlerDialog(final Context context){
+		new AlertDialog.Builder(context)
+				.setMessage(R.string.driver_unload)
+				.setPositiveButton(R.string.exit, new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialogInterface, int i) {
+						//exit
+
+						Activity activity = (Activity)context;
+						activity.finish();
+					}
+				}).show();
+	}
+}

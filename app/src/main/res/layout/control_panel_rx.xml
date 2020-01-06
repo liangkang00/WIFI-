@@ -1,0 +1,163 @@
+<!--  <ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content" > -->
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+	android:focusableInTouchMode="true">
+
+
+    <!--Mode Select-->
+    <TextView
+        android:id="@+id/textMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="22dp"
+        android:text="@string/mode"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textMode"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+
+        android:layout_toRightOf="@+id/textMode" />
+
+    <!--Channel Selecct-->
+    <TextView
+        android:id="@+id/textChannel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textMode"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="22dp"
+        android:text="@string/channel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spChannel"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textChannel"
+        android:layout_below="@+id/spMode"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/textChannel"
+        />
+
+    <LinearLayout
+        android:id="@+id/layout_bw40"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/spChannel"
+        android:layout_below="@+id/textMode"
+        android:layout_alignBottom="@+id/spChannel"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textbw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="22dp"
+            android:text="@string/bw"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/spBw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+
+
+    <!--Rate Select-->
+    <TextView
+        android:id="@+id/textRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textMode"
+        android:layout_marginTop="132dp"
+        android:text="@string/timer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textRate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textChannel"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/rate"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spRate"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_alignBottom="@+id/textRate"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spChannel"
+        android:layout_marginBottom="39dp"
+        android:layout_marginLeft="27dp"
+        android:layout_toRightOf="@+id/textRate" />
+
+    <ToggleButton
+        android:id="@+id/toggleTx"
+        android:layout_width="320px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textMode"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/button_color_pink"
+        android:text="@string/tbTx"
+        android:textColor="@color/white"
+        android:textOff="@string/tx_off"
+        android:textOn="@string/tx_on" />
+
+    <Button
+        android:id="@+id/btnRest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/toggleTx"
+        android:layout_marginEnd="104dp"
+        android:text="@string/rx_reset" />
+
+    <TextView
+        android:id="@+id/textContent"
+        android:layout_width="match_parent"
+        android:layout_height="283dp"
+        android:layout_below="@+id/toggleTx"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="16dp"
+        android:maxLines="10"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textRate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/rx_reset_editText" />
+
+
+</RelativeLayout>

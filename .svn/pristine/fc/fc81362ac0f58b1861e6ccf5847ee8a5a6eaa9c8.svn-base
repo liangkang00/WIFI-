@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "com.ssv.ssvwifitool"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+                abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86', 'x86_64'
+            }
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    signingConfigs {
+        debug {
+            keyAlias 'amlogic_xuan'
+            keyPassword '12345678'
+            storeFile file('E:/AndroidProject/icommWifiTool/app/sign/android_amlogic.jks')
+            storePassword '12345678'
+        }
+        release {
+            keyAlias 'amlogic_xuan'
+            keyPassword '12345678'
+            storeFile file('E:/AndroidProject/icommWifiTool/app/sign/android_amlogic.jks')
+            storePassword '12345678'
+        }
+    }
+
+//    signingConfigs {
+//        debug {
+//            keyAlias 'rk31_xun'
+//            keyPassword '12345678'
+//            storeFile file('E:/AndroidProject/icommWifiTool/app/sign/rk31_xun.jks')
+//            storePassword '12345678'
+//        }
+//        release {
+//            keyAlias 'rk31_xun'
+//            keyPassword '12345678'
+//            storeFile file('E:/AndroidProject/icommWifiTool/app/sign/rk31_xun.jks')
+//            storePassword '12345678'
+//        }
+//    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+repositories {
+    mavenCentral()
+}

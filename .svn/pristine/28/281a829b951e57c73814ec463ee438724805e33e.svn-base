@@ -1,0 +1,61 @@
+{
+  "stringTable": {
+    "0": "E:/AndroidProject/icommWifiTool/app/.externalNativeBuild/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android23 --gcc-toolchain=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DssvWifiTool_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -O0 -fno-limit-debug-info -fPIC",
+    "2": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC  "
+  },
+  "buildFiles": [
+    "F:\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "F:\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "E:\\AndroidProject\\icommWifiTool\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "F:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\AndroidProject\\icommWifiTool\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "ssvWifiTool-Debug-x86": {
+      "buildCommand": "F:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\AndroidProject\\icommWifiTool\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target ssvWifiTool",
+      "buildType": "debug",
+      "toolchain": "2806837992",
+      "abi": "x86",
+      "artifactName": "ssvWifiTool",
+      "files": [
+        {
+          "src": "E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\rf_tool.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\ssvWifiTool.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\sdio_rw.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\SSV6051_ATE.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\SDIO-EXE.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "E:\\AndroidProject\\icommWifiTool\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libssvWifiTool.so"
+    }
+  },
+  "toolchains": {
+    "2806837992": {
+      "cppCompilerExecutable": "F:\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

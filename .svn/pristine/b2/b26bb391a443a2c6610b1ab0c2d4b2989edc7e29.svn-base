@@ -1,0 +1,7 @@
+# ninja log v5
+15	651	584880760	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SSV6051_ATE.cpp.o	e521f2d06b1d4b25
+12	697	584880760	CMakeFiles/ssvWifiTool.dir/src/main/cpp/sdio_rw.cpp.o	932e40a16db04b2e
+5	743	584880760	CMakeFiles/ssvWifiTool.dir/src/main/cpp/rf_tool.cpp.o	a8669cd28015d876
+18	809	584880760	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SDIO-EXE.cpp.o	555c0c2bbcda1dda
+9	923	584880760	CMakeFiles/ssvWifiTool.dir/src/main/cpp/ssvWifiTool.cpp.o	e7b6dec48b1f266c
+923	1425	584880761	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libssvWifiTool.so	af8a4b1ec96d9915

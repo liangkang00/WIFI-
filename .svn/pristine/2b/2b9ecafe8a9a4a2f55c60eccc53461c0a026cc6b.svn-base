@@ -1,0 +1,31 @@
+[
+{
+  "directory": "E:/AndroidProject/icommWifiTool/app/.externalNativeBuild/cmake/release/arm64-v8a",
+  "command": "F:\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --gcc-toolchain=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DssvWifiTool_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ssvWifiTool.dir\\src\\main\\cpp\\rf_tool.cpp.o -c E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\rf_tool.cpp",
+  "file": "E:/AndroidProject/icommWifiTool/app/src/main/cpp/rf_tool.cpp"
+},
+
+{
+  "directory": "E:/AndroidProject/icommWifiTool/app/.externalNativeBuild/cmake/release/arm64-v8a",
+  "command": "F:\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --gcc-toolchain=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DssvWifiTool_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ssvWifiTool.dir\\src\\main\\cpp\\ssvWifiTool.cpp.o -c E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\ssvWifiTool.cpp",
+  "file": "E:/AndroidProject/icommWifiTool/app/src/main/cpp/ssvWifiTool.cpp"
+},
+
+{
+  "directory": "E:/AndroidProject/icommWifiTool/app/.externalNativeBuild/cmake/release/arm64-v8a",
+  "command": "F:\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --gcc-toolchain=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DssvWifiTool_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ssvWifiTool.dir\\src\\main\\cpp\\sdio_rw.cpp.o -c E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\sdio_rw.cpp",
+  "file": "E:/AndroidProject/icommWifiTool/app/src/main/cpp/sdio_rw.cpp"
+},
+
+{
+  "directory": "E:/AndroidProject/icommWifiTool/app/.externalNativeBuild/cmake/release/arm64-v8a",
+  "command": "F:\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --gcc-toolchain=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DssvWifiTool_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ssvWifiTool.dir\\src\\main\\cpp\\SSV6051_ATE.cpp.o -c E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\SSV6051_ATE.cpp",
+  "file": "E:/AndroidProject/icommWifiTool/app/src/main/cpp/SSV6051_ATE.cpp"
+},
+
+{
+  "directory": "E:/AndroidProject/icommWifiTool/app/.externalNativeBuild/cmake/release/arm64-v8a",
+  "command": "F:\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --gcc-toolchain=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=F:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -DssvWifiTool_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\ssvWifiTool.dir\\src\\main\\cpp\\SDIO-EXE.cpp.o -c E:\\AndroidProject\\icommWifiTool\\app\\src\\main\\cpp\\SDIO-EXE.cpp",
+  "file": "E:/AndroidProject/icommWifiTool/app/src/main/cpp/SDIO-EXE.cpp"
+}
+]

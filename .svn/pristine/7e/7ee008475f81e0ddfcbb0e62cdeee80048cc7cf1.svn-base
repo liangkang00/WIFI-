@@ -1,0 +1,25 @@
+# ninja log v5
+60	682	584861063	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SSV6051_ATE.cpp.o	d44d568856eac354
+63	692	584861063	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SDIO-EXE.cpp.o	bdb6cb7b9c18b0f6
+54	722	584861063	CMakeFiles/ssvWifiTool.dir/src/main/cpp/sdio_rw.cpp.o	5e4c808546fcdfa5
+50	748	584861063	CMakeFiles/ssvWifiTool.dir/src/main/cpp/rf_tool.cpp.o	d2487de8a7b3f91e
+57	833	584861063	CMakeFiles/ssvWifiTool.dir/src/main/cpp/ssvWifiTool.cpp.o	47f4bbf6d65dd13d
+833	1884	584861064	../../../../build/intermediates/cmake/debug/obj/x86/libssvWifiTool.so	965b6de157ba4b7d
+75	548	585225274	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SSV6051_ATE.cpp.o	d44d568856eac354
+65	725	585225275	CMakeFiles/ssvWifiTool.dir/src/main/cpp/rf_tool.cpp.o	d2487de8a7b3f91e
+78	758	585225275	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SDIO-EXE.cpp.o	bdb6cb7b9c18b0f6
+69	764	585225275	CMakeFiles/ssvWifiTool.dir/src/main/cpp/sdio_rw.cpp.o	5e4c808546fcdfa5
+72	785	585225275	CMakeFiles/ssvWifiTool.dir/src/main/cpp/ssvWifiTool.cpp.o	47f4bbf6d65dd13d
+785	1881	585225276	../../../../build/intermediates/cmake/debug/obj/x86/libssvWifiTool.so	965b6de157ba4b7d
+21	699	585226198	CMakeFiles/ssvWifiTool.dir/src/main/cpp/rf_tool.cpp.o	d2487de8a7b3f91e
+27	709	585226198	CMakeFiles/ssvWifiTool.dir/src/main/cpp/sdio_rw.cpp.o	5e4c808546fcdfa5
+31	726	585226198	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SDIO-EXE.cpp.o	bdb6cb7b9c18b0f6
+35	731	585226198	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SSV6051_ATE.cpp.o	d44d568856eac354
+24	770	585226198	CMakeFiles/ssvWifiTool.dir/src/main/cpp/ssvWifiTool.cpp.o	47f4bbf6d65dd13d
+771	1966	585226199	../../../../build/intermediates/cmake/debug/obj/x86/libssvWifiTool.so	965b6de157ba4b7d
+67	613	585726845	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SSV6051_ATE.cpp.o	d44d568856eac354
+72	664	585726845	CMakeFiles/ssvWifiTool.dir/src/main/cpp/SDIO-EXE.cpp.o	bdb6cb7b9c18b0f6
+61	685	585726845	CMakeFiles/ssvWifiTool.dir/src/main/cpp/sdio_rw.cpp.o	5e4c808546fcdfa5
+58	734	585726845	CMakeFiles/ssvWifiTool.dir/src/main/cpp/rf_tool.cpp.o	d2487de8a7b3f91e
+64	810	585726845	CMakeFiles/ssvWifiTool.dir/src/main/cpp/ssvWifiTool.cpp.o	47f4bbf6d65dd13d
+810	2643	585726847	../../../../build/intermediates/cmake/debug/obj/x86/libssvWifiTool.so	965b6de157ba4b7d

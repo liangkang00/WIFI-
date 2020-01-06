@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "F:\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "F:\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "E:\\AndroidProject\\icommWifiTool\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "F:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\AndroidProject\\icommWifiTool\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+  ],
+  "libraries": {
+    "ssvWifiTool-Release-x86_64": {
+      "artifactName": "ssvWifiTool",
+      "buildCommand": "F:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\AndroidProject\\icommWifiTool\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target ssvWifiTool",
+      "abi": "x86_64",
+      "output": "E:\\AndroidProject\\icommWifiTool\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libssvWifiTool.so"
+    }
+  }
+}

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ref_clk">
+    	<item>26 MHz</item>
+    	<item>24 MHz</item>
+    	<item>40 MHz</item>
+    </string-array>
+    <string-array name="ref_clk_values">
+    	<item>26</item>
+    	<item>24</item>
+    	<item>40</item>
+    </string-array>
+            
+    <string-array name="channel_list_of_twog">
+    	<item>1 (2412 MHz)</item>
+    	<item>2 (2417 MHz)</item>
+    	<item>3 (2422 MHz)</item>
+    	<item>4 (2427 MHz)</item>
+    	<item>5 (2432 MHz)</item>
+    	<item>6 (2437 MHz)</item>
+    	<item>7 (2442 MHz)</item>
+    	<item>8 (2447 MHz)</item>
+    	<item>9 (2452 MHz)</item>
+    	<item>10 (2457 MHz)</item>
+    	<item>11 (2462 MHz)</item>
+    	<item>12 (2467 MHz)</item>
+    	<item>13 (2472 MHz)</item>
+    	<item>14 (2484 MHz)</item>
+    </string-array>  
+    <string-array name="channel_list_of_twog_values">
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+    	<item>5</item>
+    	<item>6</item>
+    	<item>7</item>
+    	<item>8</item>
+    	<item>9</item>
+    	<item>10</item>
+    	<item>11</item>
+    	<item>12</item>
+    	<item>13</item>
+    	<item>14</item>
+    </string-array>
+
+	<string-array name="channel_list_of_twog_ht40">
+		<item>3 (2422 MHz)</item>
+		<item>4 (2427 MHz)</item>
+		<item>5 (2432 MHz)</item>
+		<item>6 (2437 MHz)</item>
+		<item>7 (2442 MHz)</item>
+		<item>8 (2447 MHz)</item>
+		<item>9 (2452 MHz)</item>
+		<item>10 (2457 MHz)</item>
+		<item>11 (2462 MHz)</item>
+	</string-array>
+	<string-array name="channel_list_of_twog_ht40_values">
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+	</string-array>
+    
+    <string-array name="channel_list_of_fiveg">
+    	<item>36 (5123 MHz)?</item>
+    	<item>38 (5123 MHz)?</item>
+    </string-array>
+    <string-array name="channel_list_of_fiveg_values">
+    	<item>1</item>
+    	<item>2</item>
+    </string-array>
+        
+    <string-array name="mode_list">
+    	<item>11b</item>
+    	<item>11g</item>
+    	<item>11n</item>
+    	<!--  <item>11a</item> -->
+    </string-array>
+    <string-array name="mode_list_values">
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<!--  <item>4</item> -->
+    </string-array>
+        
+    <string-array name="rate_list_of_b">
+    	<item>1 Mbps </item>
+    	<item>2 Mbps   (Long Preamble)</item>
+    	<item>5.5 Mbps (Long Preamble)</item>
+    	<item>11 Mbps  (Long Preamble)</item>
+    	<item>5.5 Mbps (Short Preamble)</item>
+    	<item>11 Mbps  (Short Preamble)</item>
+    </string-array>
+    <string-array name="rate_list_of_b_values">
+    	<item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>5</item>
+    	<item>6</item>
+    </string-array>
+        
+    <string-array name="rate_list_of_ag">
+    	<item>6 Mbps</item>
+    	<item>9 Mbps</item>
+    	<item>12 Mbps</item>
+    	<item>18 Mbps</item>
+    	<item>24 Mbps</item>
+    	<item>36 Mbps</item>
+    	<item>48 Mbps</item>
+    	<item>54 Mbps</item>
+    </string-array>
+    <string-array name="rate_list_of_ag_values">
+    	<item>7</item>
+    	<item>8</item>
+    	<item>9</item>
+    	<item>10</item>
+    	<item>11</item>
+    	<item>12</item>
+    	<item>13</item>
+    	<item>14</item>
+    </string-array>   
+    
+    <string-array name="rate_list_of_n_ht20">
+    	<item>MCS0-HT20-LGI(6.5Mbps)</item>
+    	<item>MCS1-HT20-LGI(13.0Mbps)</item>
+     	<item>MCS2-HT20-LGI(19.5Mbps)</item>
+    	<item>MCS3-HT20-LGI(26.0Mbps)</item>
+       	<item>MCS4-HT20-LGI(39.0Mbps)</item>
+    	<item>MCS5-HT20-LGI(52.0Mbps)</item>
+       	<item>MCS6-HT20-LGI(58.0Mbps)</item>
+    	<item>MCS7-HT20-LGI(65.0Mbps)</item>
+    	<item>MCS0-HT20-SGI(7.2Mbps)</item>
+    	<item>MCS1-HT20-SGI(14.2Mbps)</item>
+     	<item>MCS2-HT20-SGI(21.7Mbps)</item>
+    	<item>MCS3-HT20-SGI(28.9Mbps)</item>
+       	<item>MCS4-HT20-SGI(43.3Mbps)</item>
+    	<item>MCS5-HT20-SGI(57.8Mbps)</item>
+       	<item>MCS6-HT20-SGI(65.0Mbps)</item>
+    	<item>MCS7-HT20-SGI(72.2Mbps)</item>
+    </string-array>
+
+	<string-array name="rate_list_of_n_ht20_values">
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+
+	</string-array>
+
+	<string-array name="rate_list_of_n_ht40">
+		<item>MCS0-HT40-LGI(13.5Mbps)</item>
+		<item>MCS1-HT40-LGI(27.0Mbps)</item>
+		<item>MCS2-HT40-LGI(40.5Mbps)</item>
+		<item>MCS3-HT40-LGI(54.0Mbps)</item>
+		<item>MCS4-HT40-LGI(81.0Mbps)</item>
+		<item>MCS5-HT40-LGI(108.0Mbps)</item>
+		<item>MCS6-HT40-LGI(121.5Mbps)</item>
+		<item>MCS7-HT40-LGI(135.0Mbps)</item>
+		<item>MCS0-HT40-SGI(15.0Mbps)</item>
+		<item>MCS1-HT40-SGI(30.0Mbps)</item>
+		<item>MCS2-HT40-SGI(45.0Mbps)</item>
+		<item>MCS3-HT40-SGI(60.0Mbps)</item>
+		<item>MCS4-HT40-SGI(90.0Mbps)</item>
+		<item>MCS5-HT40-SGI(120.0Mbps)</item>
+		<item>MCS6-HT40-SGI(135.0Mbps)</item>
+		<item>MCS7-HT40-SGI(150.0Mbps)</item>
+	</string-array>
+
+	<string-array name="bw_list">
+		<item>20M</item>
+		<item>40M</item>
+	</string-array>
+
+	<string-array name="bw_list_values">
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+	<string-array name="rate_list_of_n_ht40_values">
+		<item>31</item>
+		<item>32</item>
+		<item>33</item>
+		<item>34</item>
+		<item>35</item>
+		<item>36</item>
+		<item>37</item>
+		<item>38</item>
+		<item>39</item>
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+		<item>43</item>
+		<item>44</item>
+		<item>45</item>
+		<item>46</item>
+	</string-array>
+
+
+    <string-array name="dac_list">
+    	<item>0 (no offset)</item>
+    	<item>1 (-0.5 dB)</item>
+    	<item>2 (-1.0 dB)</item>
+    	<item>3 (-1.5 dB)</item>
+    	<item>4 (-2.0 dB)</item>
+    	<item>5 (-2.5 dB)</item>
+    	<item>6 (-3.0 dB)</item>
+    	<item>7 (-3.5 dB)</item>
+    	<item>8 (+0.5 dB)</item>
+    	<item>9 (+1.0 dB)</item>
+    	<item>10 (+1.5 dB)</item>
+    	<item>11 (+2.0 dB)</item>
+    	<item>12 (+2.5 dB)</item>
+    	<item>13 (+3.0 dB)</item>
+    	<item>14 (+3.5 dB)</item>
+    	<item>15 (+4.0 dB)</item>
+    </string-array>    
+    <string-array name="dac_list_values">
+    	<item>0</item>
+    	<item>1</item>
+    	<item>2</item>
+    	<item>3</item>
+    	<item>4</item>
+    	<item>5</item>
+    	<item>6</item>
+    	<item>7</item>
+    	<item>8</item>
+    	<item>9</item>
+    	<item>10</item>
+    	<item>11</item>
+    	<item>12</item>
+    	<item>13</item>
+    	<item>14</item>
+    	<item>15</item>
+    </string-array>  
+       
+</resources>

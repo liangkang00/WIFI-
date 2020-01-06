@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "F:\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "F:\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "E:\\AndroidProject\\icommWifiTool\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "F:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\AndroidProject\\icommWifiTool\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "ssvWifiTool-Release-armeabi-v7a": {
+      "artifactName": "ssvWifiTool",
+      "buildCommand": "F:\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe --build E:\\AndroidProject\\icommWifiTool\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target ssvWifiTool",
+      "abi": "armeabi-v7a",
+      "output": "E:\\AndroidProject\\icommWifiTool\\app\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libssvWifiTool.so"
+    }
+  }
+}

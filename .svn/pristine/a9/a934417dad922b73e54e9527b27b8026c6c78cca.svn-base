@@ -1,0 +1,266 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+	android:focusableInTouchMode="true">
+	
+    <TextView
+        android:id="@+id/textRefClk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/ref_clk"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ToggleButton
+        android:id="@+id/toggleRx"
+        android:layout_width="80px"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textRefClk"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/button_color_pink"
+        android:text="@string/tbRx"
+        android:textColor="@color/slategray"
+        android:textOff="@string/rx_off"
+        android:textOn="@string/rx_on" />
+
+    <ToggleButton
+        android:id="@+id/toggleRxReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/toggleRx"
+        android:layout_alignRight="@+id/toggleRx"
+        android:layout_below="@+id/toggleRx"
+ 		android:layout_marginTop="10dp"
+ 		android:background="@drawable/button_color_pink"
+        android:textOff="@string/rx_reset"
+        android:textOn="@string/rx_reset"  />
+
+    <Spinner
+        android:id="@+id/spChannel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textCahnnel"
+        android:layout_below="@+id/toggleRx"
+        android:layout_toLeftOf="@+id/btnRxReset"
+        android:layout_toRightOf="@+id/textCahnnel" />
+
+    <Spinner
+        android:id="@+id/spRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textRate"
+        android:layout_alignLeft="@+id/spMode"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spMode" />
+
+    <EditText
+        android:id="@+id/etTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textTimer"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/textTimer"
+        android:ems="8"
+        android:inputType="number"
+        android:maxLength="8"
+        android:selectAllOnFocus="true"
+        android:text="@string/one_thousand" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textPtk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textTimer"
+        android:layout_below="@+id/textTimer"
+        android:layout_marginTop="22dp"
+        android:text="@string/ptk"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textPtkShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textPtk"
+        android:layout_toRightOf="@+id/textPtk"
+        android:gravity="right"
+         android:ems="3"
+        android:maxLength="8"
+        android:text="@string/empty"
+        android:background="@color/lighter_custom_gray"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textErr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textPtkShow"
+        android:layout_alignBottom="@+id/textPtkShow"
+        android:layout_toRightOf="@+id/textPtkShow"
+        android:layout_marginLeft="22dp"
+        android:text="@string/err"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textErrShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textErr"
+        android:layout_toRightOf="@+id/textErr"
+        android:gravity="right"
+        android:ems="3"
+        android:maxLength="8"
+        android:text="@string/empty"
+        android:background="@color/lighter_custom_gray"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textErrRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textErrShow"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/textErrShow"
+        android:text="@string/per"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textErrRateShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textErrRate"
+        android:layout_toRightOf="@+id/textErrRate"
+        android:background="@color/lighter_custom_gray"
+        android:ems="4"
+        android:gravity="right"
+        android:maxLength="10"
+        android:text="@string/empty"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textRSSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textErrRate"
+        android:layout_below="@+id/textErrRate"
+        android:layout_marginTop="23dp"
+        android:text="@string/rssi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textRSSIShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textRSSI"
+        android:layout_alignBottom="@+id/textRSSI"
+        android:layout_toRightOf="@+id/textRSSI"
+        android:background="@color/lighter_custom_gray"
+        android:text="@string/empty"
+        android:ems="4"
+        android:gravity="right"
+        android:maxLength="10"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<!--
+    <TextView
+        android:id="@+id/textRSSI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textErrShow"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/textErrShow"
+        android:text="@string/rssi"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textRSSIShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textRSSI"
+        android:layout_toRightOf="@+id/textRSSI"
+        android:gravity="right"
+        android:ems="4"
+        android:maxLength="10"
+        android:text="@string/empty"
+        android:background="@color/lighter_custom_gray"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+-->
+    <Spinner
+        android:id="@+id/spRefClk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toggleRx"
+        android:layout_toRightOf="@+id/textRefClk"
+        android:layout_alignTop="@+id/toggleRx" />
+
+    <TextView
+        android:id="@+id/textRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textMode"
+        android:layout_below="@+id/textMode"
+        android:layout_marginTop="27dp"
+        android:text="@string/rate"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textRate"
+        android:layout_alignLeft="@+id/spChannel"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/textMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textCahnnel"
+        android:layout_below="@+id/textCahnnel"
+        android:layout_marginTop="25dp"
+        android:text="@string/mode"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textRate"
+        android:layout_below="@+id/spRate"
+        android:layout_marginTop="24dp"
+        android:text="@string/timer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textCahnnel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textRefClk"
+        android:layout_below="@+id/textRefClk"
+        android:layout_marginTop="22dp"
+        android:text="@string/channel"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textPtk"
+        android:layout_below="@+id/textRSSIShow"
+        android:orientation="vertical" >
+        
+        <ScrollView
+            android:id="@+id/scrollRxHis"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView  
+                android:id="@+id/textRxHistroy"
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent"
+                android:gravity="bottom" />
+            
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>
